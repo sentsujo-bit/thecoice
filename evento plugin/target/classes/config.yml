@@ -1,0 +1,24 @@
+mundos:
+  lobby: lobby
+  lava: evento_lava
+  manhunt: evento_manhunt
+entrada:
+  segundos: 30
+lava:
+  altura-inicial: 64
+  altura-maxima: 100
+  blocos-por-subida: 1
+  intervalo-segundos: 10
+  barreira: true
+  material-barreira: GLASS
+  min-x: -50
+  max-x: 50
+  min-z: -50
+  max-z: 50
+manhunt:
+  spin-segundos: 5
+  glowing-runner: true
+  nome-vermelho: true
+  compass-update-ticks: 20
+mensagens:
+  prefix: '&8[&bEvento&8] '

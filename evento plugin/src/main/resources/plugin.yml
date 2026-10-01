@@ -1,0 +1,29 @@
+name: Evento
+version: 1.0.0
+main: br.nait.evento.EventoPlugin
+api-version: '1.21'
+author: Nait
+description: Sistema de eventos para Paper 1.21.11
+
+commands:
+  evento:
+    description: Sistema de eventos
+    usage: /evento
+
+  lobby:
+    description: Teleporta para o lobby
+    usage: /lobby
+
+  setlobby:
+    description: Define o lobby
+    usage: /setlobby
+
+permissions:
+  evento.admin:
+    default: op
+
+  evento.jogar:
+    default: true
+
+  evento.setlobby:
+    default: op
